@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "bitwise_boolean",
+    "bitwise_boolean_tests",
+]

@@ -1,0 +1,16 @@
+[package]
+name = "bitwise_boolean"
+version = "0.1.0"
+authors = ["Zhe <zhe@solworks.dev>"]
+description = "A Rust macro to generate bitwise boolean getters and setters for a struct with u8 field storing up to 8 flags."
+license = "MIT"
+repository = ""
+edition = "2021"
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+proc-macro2 = "1.0"
+
+[lib]
+proc-macro = true
