@@ -4,7 +4,10 @@ version = "0.1.0"
 authors = ["Zhe <zhe@solworks.dev>"]
 description = "A Rust macro to generate bitwise boolean getters and setters for a struct with u8 field storing up to 8 flags."
 license = "MIT"
-repository = ""
+repository = "https://github.com/SolWorks-Dev/bitwise_boolean"
+readme = "README.md"
+keywords = ["bitwise", "boolean", "getter", "setter", "macro"]
+categories = ["development-tools::procedural-macro-helpers"]
 edition = "2021"
 
 [dependencies]
